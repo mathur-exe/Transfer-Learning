@@ -1,0 +1,5 @@
+Plant Disease Classification 
+
+1. No need to move from from image folder to separate train & test image folder because as we are adding the path of file in csv itself. Custom dataset class could directly extract directly
+
+2. Instead of the janajat, I segregrate the images in categorical folders and then used PyTorch's ImageFolder 
